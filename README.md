@@ -9,12 +9,14 @@ Vibe Coder is an agentic AI system that researches market trends, checks for dup
 ## 🖥️ GUI Application (Recommended for Beginners)
 
 ### Windows Users
-**Double-click:** `run-gui.bat`
+1. **Create Desktop Shortcut:** Double-click `create-desktop-shortcut.bat`
+2. **Run:** Double-click the "Vibe Coder" shortcut on your desktop!
 
 *(First time: Run `setup.bat` first)*
 
 ### Linux/Mac Users
-**Double-click:** `run-gui.sh`
+1. **Create Desktop Shortcut:** Run `./create-desktop-shortcut.sh`
+2. **Run:** Double-click the "Vibe Coder" icon on your desktop!
 
 Or from terminal:
 ```bash
@@ -28,7 +30,7 @@ Or from terminal:
 - ⚙️ **Mode Select** - Single run or continuous
 - 📂 **Quick Actions** - Open projects, view status
 
-**See:** [GUI_README.md](GUI_README.md) for full documentation
+**See:** [GUI_GUIDE.md](GUI_GUIDE.md) for complete documentation
 
 ---
 
