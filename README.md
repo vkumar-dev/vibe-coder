@@ -6,6 +6,32 @@ Vibe Coder is an agentic AI system that researches market trends, checks for dup
 
 **Strategy:** 70% AI-infused apps + 30% viral-potential apps = Maximum innovation
 
+## 🖥️ GUI Application (Recommended for Beginners)
+
+### Windows Users
+**Double-click:** `run-gui.bat`
+
+*(First time: Run `setup.bat` first)*
+
+### Linux/Mac Users
+**Double-click:** `run-gui.sh`
+
+Or from terminal:
+```bash
+./run-gui.sh
+```
+
+### GUI Features
+- 📊 **Live Progress** - See real-time output
+- ▶️ **Start/Stop** - One-click control
+- 📈 **Status Display** - Apps generated, last cycle
+- ⚙️ **Mode Select** - Single run or continuous
+- 📂 **Quick Actions** - Open projects, view status
+
+**See:** [GUI_README.md](GUI_README.md) for full documentation
+
+---
+
 ## Architecture
 
 ```
