@@ -1,0 +1,44 @@
+[
+  {
+    "idea_id": "idea-hn-47086181",
+    "app_name": "vibe-vibe-app-the-path-to-ubiquitous-ai-17k-tokens-sec",
+    "app_path": "/home/eliza/qwen/vibe-coder/core/../projects/vibe-vibe-app-the-path-to-ubiquitous-ai-17k-tokens-sec",
+    "success": true,
+    "files_created": [
+      "package.json",
+      "server.js",
+      "README.md",
+      "client/package.json",
+      "client/public/index.html",
+      "client/src/index.js",
+      "client/src/App.js",
+      ".gitignore"
+    ],
+    "github_repo": "vkumar-dev/vibe-vibe-vibe-app-the-path-to-ubiquitous-ai-17k-tokens-sec",
+    "error": null,
+    "duration_seconds": 4.52203,
+    "generated_at": "2026-02-20T16:41:25.777305"
+  },
+  {
+    "idea_id": "ai-idea-hn-47089213",
+    "app_name": "vibe-ai-powered-trump-s-global-tariffs-struck-down-by-u",
+    "app_path": "/home/eliza/qwen/vibe-coder/core/../projects/vibe-ai-powered-trump-s-global-tariffs-struck-down-by-u",
+    "success": true,
+    "files_created": [
+      "package.json",
+      "services/ai-service.js",
+      ".env.example",
+      "server.js",
+      "README.md",
+      "client/package.json",
+      "client/public/index.html",
+      "client/src/index.js",
+      "client/src/App.js",
+      ".gitignore"
+    ],
+    "github_repo": "vkumar-dev/vibe-vibe-ai-powered-trump-s-global-tariffs-struck-down-by-u",
+    "error": null,
+    "duration_seconds": 7.016503,
+    "generated_at": "2026-02-20T16:51:04.204917"
+  }
+]

@@ -1,0 +1,84 @@
+# Vibe Coder Configuration
+
+loop:
+  # How often to generate apps (hours)
+  interval_hours: 4
+  
+  # Maximum restart attempts before giving up
+  max_restarts: 3
+  
+  # Timezone for scheduling
+  timezone: "UTC"
+
+research:
+  # Data sources for trend research
+  sources:
+    - github_trending
+    - product_hunt
+    - hacker_news
+  
+  # Minimum trend score to consider (1-10)
+  min_score: 7.0
+  
+  # Number of trends to research per cycle
+  max_trends: 10
+
+duplicate_check:
+  # Your GitHub username for checking existing repos
+  github_user: "vkumar-dev"
+  
+  # Check local projects directory
+  check_local: true
+  
+  # Similarity threshold (0-1, higher = stricter)
+  similarity_threshold: 0.7
+
+generator:
+  # AI tool to use for code generation
+  ai_tool: "qwen-code"
+  
+  # Automatically push to GitHub
+  auto_push: true
+  
+  # Repository name prefix
+  repo_prefix: "vibe-"
+  
+  # Default tech stack
+  stack:
+    frontend: "react"
+    backend: "node"
+    database: "sqlite"
+
+github:
+  # Default repo visibility
+  visibility: "public"
+  
+  # Auto-add topics
+  topics:
+    - "vibe-coded"
+    - "ai-generated"
+    - "autonomous"
+
+notifications:
+  # Enable notifications
+  enabled: true
+  
+  # Notify on successful app generation
+  on_success: true
+  
+  # Notify on failure
+  on_failure: true
+  
+  # Daily summary
+  daily_summary: true
+
+storage:
+  # Data directories
+  projects_dir: "projects"
+  logs_dir: "logs"
+  state_dir: "state"
+  
+  # State files
+  trends_file: "trends.json"
+  duplicates_file: "duplicates.json"
+  history_file: "history.json"

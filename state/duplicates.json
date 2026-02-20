@@ -1,0 +1,36 @@
+[
+  {
+    "idea_id": "idea-hn-47086181",
+    "is_duplicate": false,
+    "similarity_score": 0.0,
+    "matching_projects": [],
+    "checked_at": "2026-02-20T16:41:21.246313"
+  },
+  {
+    "idea_id": "viral-idea-hn-47086181",
+    "is_duplicate": true,
+    "similarity_score": 0.7047619047619048,
+    "matching_projects": [
+      {
+        "source": "github",
+        "name": "vibe-vibe-vibe-app-the-path-to-ubiquitous-ai-17k-tokens-sec",
+        "description": "",
+        "similarity": 0.6727272727272727
+      },
+      {
+        "source": "local",
+        "name": "vibe-vibe-app-the-path-to-ubiquitous-ai-17k-tokens-sec",
+        "path": "/home/eliza/qwen/vibe-coder/core/../projects/vibe-vibe-app-the-path-to-ubiquitous-ai-17k-tokens-sec",
+        "similarity": 0.7047619047619048
+      }
+    ],
+    "checked_at": "2026-02-20T16:50:55.665883"
+  },
+  {
+    "idea_id": "ai-idea-hn-47089213",
+    "is_duplicate": false,
+    "similarity_score": 0.0,
+    "matching_projects": [],
+    "checked_at": "2026-02-20T16:50:57.182187"
+  }
+]

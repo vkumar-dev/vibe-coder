@@ -1,0 +1,3 @@
+Template app created at 2026-02-20T16:50:57.318117
+Type: AI-Infused
+Files: ['package.json', 'services/ai-service.js', '.env.example', 'server.js', 'README.md', 'client/package.json', 'client/public/index.html', 'client/src/index.js', 'client/src/App.js', '.gitignore']

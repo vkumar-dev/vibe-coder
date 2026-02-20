@@ -1,0 +1,65 @@
+{
+  "updated_at": "2026-02-20T16:50:54.073269",
+  "trends": [
+    {
+      "id": "hn-47088037",
+      "source": "hacker_news",
+      "title": "Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
+      "score": 3.24
+    },
+    {
+      "id": "hn-47088181",
+      "source": "hacker_news",
+      "title": "I found a useful Git one liner buried in leaked CIA developer docs",
+      "score": 2.62
+    },
+    {
+      "id": "hn-47089907",
+      "source": "hacker_news",
+      "title": "No Skill. No Taste",
+      "score": 0.32
+    },
+    {
+      "id": "hn-47088685",
+      "source": "hacker_news",
+      "title": "Child's Play: Tech's new generation and the end of thinking",
+      "score": 0.87
+    },
+    {
+      "id": "hn-47086181",
+      "source": "hacker_news",
+      "title": "The path to ubiquitous AI (17k tokens/sec)",
+      "score": 4.61
+    },
+    {
+      "id": "hn-47089213",
+      "source": "hacker_news",
+      "title": "Trump's global tariffs struck down by US Supreme Court",
+      "score": 3.81
+    },
+    {
+      "id": "hn-47088166",
+      "source": "hacker_news",
+      "title": "Show HN: A native macOS client for Hacker News, built with SwiftUI",
+      "score": 0.91
+    },
+    {
+      "id": "hn-47085425",
+      "source": "hacker_news",
+      "title": "Untapped Way to Learn a Codebase: Build a Visualizer",
+      "score": 1.28
+    },
+    {
+      "id": "hn-47087719",
+      "source": "hacker_news",
+      "title": "PayPal discloses data breach that exposed user info for 6 months",
+      "score": 1.12
+    },
+    {
+      "id": "hn-47086557",
+      "source": "hacker_news",
+      "title": "Minions \u2013 Stripe's Coding Agents Part 2",
+      "score": 0.94
+    }
+  ]
+}
