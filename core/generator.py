@@ -299,17 +299,17 @@ Focus on clean, maintainable code with proper error handling.
 
 class AIService {
   constructor() {
-    this.apiKey = process.env.ANTHROPIC_API_KEY || process.env.OPENAI_API_KEY;
+    this.apiKey = process.env.AI_API_KEY;
     this.enabled = !!this.apiKey;
-    
+
     if (!this.enabled) {
-      console.log('⚠️  AI service disabled - set API key in .env');
+      console.log('ℹ️  AI service running in demo mode');
     }
   }
 
   async generate(prompt, context = {}) {
     if (!this.enabled) {
-      return this.getFallbackResponse(prompt, context);
+      return this.getDemoResponse(prompt, context);
     }
 
     try {
@@ -322,7 +322,7 @@ class AIService {
       };
     } catch (error) {
       console.error('AI service error:', error);
-      return this.getFallbackResponse(prompt, context);
+      return this.getDemoResponse(prompt, context);
     }
   }
 
@@ -335,15 +335,15 @@ class AIService {
     };
   }
 
-  getFallbackResponse(prompt, context) {
-    // Smart fallback when AI is unavailable
+  getDemoResponse(prompt, context) {
+    // Demo mode response
     return {
       success: true,
       data: {
-        message: 'AI temporarily unavailable. Here are some suggestions based on your input.',
+        message: 'Demo mode: AI features available with API key',
         suggestions: this.generateSimpleSuggestions(prompt)
       },
-      fallback: true
+      demo: true
     };
   }
 
@@ -351,7 +351,7 @@ class AIService {
     // Simple rule-based suggestions as fallback
     const keywords = input.toLowerCase().split(' ');
     const suggestions = [];
-    
+
     if (keywords.includes('create') || keywords.includes('build')) {
       suggestions.push('Start with a template');
       suggestions.push('Break down into smaller tasks');
@@ -360,7 +360,7 @@ class AIService {
       suggestions.push('Check the documentation');
       suggestions.push('Try our interactive tutorial');
     }
-    
+
     return suggestions.length > 0 ? suggestions : ['Get started now', 'Explore features', 'View examples'];
   }
 
@@ -388,11 +388,7 @@ module.exports = new AIService();
         files_created.append('services/ai-service.js')
         
         # Create .env template
-        env_content = """# AI API Keys (get from https://console.anthropic.com or https://platform.openai.com)
-ANTHROPIC_API_KEY=
-OPENAI_API_KEY=
-
-# App Configuration
+        env_content = """# App Configuration
 PORT=3000
 NODE_ENV=development
 """
