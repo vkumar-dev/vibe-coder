@@ -1,5 +1,9 @@
 # Vibe Coder - Autonomous App Factory
 
+[![GitHub stars](https://img.shields.io/github/stars/vkumar-dev/vibe-coder?style=social)](https://github.com/vkumar-dev/vibe-coder/stargazers)
+
+**If you find this useful, please ⭐ star it!** It helps others discover this project.
+
 **Ship 6 products per day while you sleep.**
 
 Vibe Coder is an agentic AI system that researches market trends, checks for duplicates, and autonomously builds 1 vibe app every 4 hours using Qwen CLI.
